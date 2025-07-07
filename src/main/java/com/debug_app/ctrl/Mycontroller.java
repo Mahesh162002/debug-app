@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Mycontroller {
     @GetMapping("/about")
     public String getAbout(){
-        String str="My Name is Retesh";
+        String str="My Name is Ram";
         str=str.toLowerCase();
         str=str.toUpperCase();
         return str;
